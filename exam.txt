@@ -1,1 +1,18 @@
 https://codeshare.io/zyrMOb
+
+
+
+დაწერეთ CLI სკრიპტი argparse ის გამოყენებით. ფუნქციონალი გადაანაწილეთ
+subparser ის გამოყენებით.
+• ec2 -key_pair “დასახელება” pem (5 ქულა)
+უნდა ჩამოწეროს პარამეტრად გადაცემული სახელით შექმნილი .pem, key-pair ი.
+* ბონუსი * - დაუმატეთ Key pair type ის პარამეტრის მითითების ფუნქციონალი.
+• ec2 -security_group_id “sg_id” -ssh-my-ip (5 ქულა)
+უნდა დაუმატოს პარამეტრად გადაცემულ security group ს, წვდომა SSH
+პროტოკოლით იმ მანქანის IP მისამართისთვის, რომლიდანაც პროგრამა გაეშვება.
+• sqs “name” -type “fifo / standart” (5 ქულა)
+უნდა შექმნას sqs queue პარამეტრად გადაცემული type ით.
+• rds -new_pass “new$$ecurepa$$” -dbInstanceId “DBInstanceIdentier” (5 ქულა)
+უნდა გაახლოს RDS db password, მხოლოდ იმ შემთხვევაში თუ მომხმარებლის მიერ
+შეყვანილი -new_pass ის სიმბოლოების რაოდენობა იქნება 8 ან 8 ზე მეტი. 
+
